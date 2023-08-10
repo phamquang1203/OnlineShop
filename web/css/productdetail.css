@@ -1,0 +1,64 @@
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+
+.customer-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-name,
+.product-id {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+
+.comment {
+    margin-top: 10px;
+    color: #555;
+}
+
+.feedback img {
+    max-width: 200px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.rating {
+    margin-top: 10px;
+    color: #FFC107;
+    font-size: 18px;
+}
+.feedback-container{
+    display: flex;
+    max-width: 70%;
+    margin: auto auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.feedback-left{
+    flex: 10%;
+}
+.feedback{
+    flex: 90%;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.feedback-left img{
+    max-width: 50px;
+    border-radius: 50%;
+}
+
+.feedback img{
+    max-width: 100px;
+}
+
+

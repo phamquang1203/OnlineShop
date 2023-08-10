@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+
+.customer-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-name,
+.product-id {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+
+.comment {
+    margin-top: 10px;
+    color: #555;
+}
+
+.feedback img {
+    max-width: 200px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.rating {
+    margin-top: 10px;
+    color: #FFC107;
+    font-size: 18px;
+}
+.feedback-container{
+    display: flex;
+    max-width: 70%;
+    margin: auto auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.feedback-left{
+    flex: 10%;
+}
+.feedback{
+    flex: 90%;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.feedback-left img{
+    max-width: 100px;
+}
+
+.feedback img{
+    max-width: 100px;
+}
+
+h2{text-align: center;}
+
+
+
+
+.rating{width: 40%;}
+input{margin-bottom:10px !important; }
+ .rating label { float: right; position: relative; width: 5px; height: 5px; cursor: pointer; margin-right: 30px;} 
+ .rating label:not(:first-of-type) { padding-right: 2px; } 
+ .rating label:before { content: "\2605"; font-size: 42px; color: #ccc; line-height: 1; }
+ .rating input { display: none; } 
+ .rating input:checked ~ label:before, .rating:not(:checked) > label:hover:before, .rating:not(:checked) > label:hover ~ label:before { color: #f9df4a; }
+textarea{margin: 10px;}

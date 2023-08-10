@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img-container button {
+    border: none;
+    padding: none;
+    width: 90px;
+}
+
+.addToCard {
+    color: white;
+    background-color: #f63440;
+    border: none;
+    padding: 10px 40px;
+}
+
+.check {
+    color: orange;
+}
+
+.quantity {
+    color: rgb(170, 168, 168);
+}
+
+.categories-container p,
+.tag-container p{
+    color:rgb(170, 168, 168);
+}
+
+ul li {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 576px) { 
+
+
+    #v-pills-home-tab img,
+    #v-pills-profile-tab img,
+    #v-pills-messages-tab img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .img-container button {
+        width: 60px;
+    }
+}
+
